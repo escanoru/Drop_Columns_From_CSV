@@ -5,5 +5,10 @@ This script requires the Pandas' module which can be install through pip by runn
 ```sh
 pip install pandas
 ```
-# Linux & Windows Executables
-Linux and Windows executables are provided in case you don't want to install python.
+# Usage
+```sh
+./Drop_Columns_From_CSV target_csv_file.csv 'column to delete 01' 'column to delete 03' 'column to delete 02'
+  
+Example:
+        Drop_Columns_From_CSV my_csv_file.csv 'Agent ID' 'Agent Address' 'Agent Version'
+```
